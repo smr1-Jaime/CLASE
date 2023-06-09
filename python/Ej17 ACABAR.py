@@ -17,9 +17,6 @@ def imprimir():
     print(media)
 
 
-if valor in numeros_div:
-    posicion = numeros_div.index(valor)
-    print(numeros_div)
 print(numeros_div)
 
 
