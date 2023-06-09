@@ -15,8 +15,11 @@ def sumaParesImpares(num1, num2, pares):
                 suma = suma + i
     return(suma)
 
-sumaParesImpares(1, 101, True)
+suma_pares = sumaParesImpares(1, 101, True)
+print(f'La suma de los números pares es: {suma_pares}')
 
+suma_impares = sumaParesImpares(1, 101, False)
+print(f'La suma de los números impares es: {suma_impares}')
 
 # num = int(input('Introduzca un numero: \r\n'))
 
