@@ -12,8 +12,7 @@ fecha_div = fecha.split()
 #La segunda posición debe ser: 0<x<=12
 #La tercera posición debe ser: 0<x
 
-meses = {
-    1: "enero",
+meses = {1: "enero",
     2: "febrero",
     3: "marzo",
     4: "abril",
@@ -27,4 +26,13 @@ meses = {
     12: "diciembre"
 }
 
-print(f'{fecha_div[0]} de {meses[int(fecha_div[1])]} de {fecha_div[2]}')
+if int(fecha_div[0]) >= 1 and int(fecha_div[0]) <= 31:
+    if int(fecha_div[1]) >= 1 and int(fecha_div[1]) <= 12:
+        if int(fecha_div[2]) > 0:
+            print(f'{fecha_div[0]} de {meses[int(fecha_div[1])]} de {fecha_div[2]}')
+        else:
+            print(f'ERROR. Fecha no válida')
+    else:
+        print(f'ERROR. Fecha no válida')
+else:
+    print(f'ERROR. Fecha no válida')
