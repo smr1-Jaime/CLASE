@@ -12,8 +12,6 @@ def complemento(x):
 
 for numero in numeros:
     binario = bin(numero)
-    # print(f'{numero} en binario es: {binario}') 
     numeros = list(binario)
-    # print(binario)
     print(complemento(binario))
 
