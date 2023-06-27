@@ -16,5 +16,7 @@
 #(1, 1)        (2, 5)          (3, 13)             (4, 25)
 
 def solution(n):
-    return n**2 + (n-1)**2
+    area = n**2 + (n-1)**2
+    return(area)
 
+print(solution(2))
