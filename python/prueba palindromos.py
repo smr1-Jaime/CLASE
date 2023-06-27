@@ -1,5 +1,3 @@
-#Given the string, check if it is a palindrome.
-
 def solution(inputString):
     inicio = 0
     fin = -1
@@ -14,3 +12,4 @@ def solution(inputString):
     return(palindromo)
 
 solution('aabaa')
+
