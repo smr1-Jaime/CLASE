@@ -9,3 +9,6 @@ matrix = [[0,1,1,2],
           [2,0,3,3]]
 # Expected output: 9
 
+# IDEA: Pasar 2 contadores simultaneamente: 1 para la fila de arriba otro para la de abajo.
+# El contador de arriba chequea si hay una posicion con el valor 0, si no hay 0 el valor de esa posicion del contador de abajo lo añade a un diccionario para sumar,
+# así hasta que se acabe la fila y pasa a la siguiente.
