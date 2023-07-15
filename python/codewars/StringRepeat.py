@@ -8,3 +8,6 @@ def repeat_str(repeat, string):
     for i in range(0,repeat):
         all += string
     return(all)
+    # return(repeat*string) Solución más óptima de la que me di cuenta después
+
+print(repeat_str(5,'hola'))
