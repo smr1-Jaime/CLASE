@@ -21,4 +21,4 @@ def sum_array(a):
         total += i
     return(total)
 
-    # return sum(a) if a else 0 --> no me di cuenta:(
+    # return sum(a) --> no me di cuenta:(
