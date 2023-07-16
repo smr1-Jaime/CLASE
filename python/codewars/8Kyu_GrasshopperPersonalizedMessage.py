@@ -8,4 +8,7 @@
 # otherwise                           'Hello guest'
 
 def greet(name, owner):
-    return(name == owner)
+    if name == owner:
+        return('Hello boss')
+    else:
+        return('Hello guest')
