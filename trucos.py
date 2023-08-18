@@ -27,3 +27,4 @@ def mezclar_diccionarios():
     d3 = {**diccionario, **diccionario2}
     return(d3)
 
+print(mezclar_diccionarios())
