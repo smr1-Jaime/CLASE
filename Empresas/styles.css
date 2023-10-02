@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font to the body */
+body {
+    background-color: #FFA500; /* Orange background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu:hover{
+    background: #c9c9c9;
+}
+/* Style the hero section */
+.hero {
+    background-image: url('orange-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733; /* Orange button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #FF8143; /* Lighter orange color on hover */
+}
+
+/* Style the about section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Container for content sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Adjust the navigation bar for smaller screens */
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Make the hero section more compact */
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Adjust the about section */
+    .about {
+        padding: 30px 0;
+    }
+
+    .about h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
